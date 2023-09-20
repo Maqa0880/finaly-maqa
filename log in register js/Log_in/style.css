@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1.05rem;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+form{
+    width: 400px;
+    margin-top: 50px;
+    border: 1px solid gray;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form-input input{
+    width: 100%;
+    padding: 5px;
+}
+
+.btn{
+    color: white;
+    background: lightblue;
+    border: none;
+    padding: 10px 20px;
+    width: 100%;
+    margin-top: 10px;
+    cursor: pointer;
+}
